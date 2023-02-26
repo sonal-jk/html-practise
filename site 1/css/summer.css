@@ -94,8 +94,35 @@ font-size: 1.5em;
 }
 #image2{
     float: left;
-    padding-left: 0px;
+    margin-right: 10px;
+
+    
 }
-.top3{
-    width: 100%;
+
+.top3 h1,.top3 p{
+    
+    margin-right: 10px;
+
+}
+
+.box{
+    background-color: #333333;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin: 40px 20px 20px 20px;
+   border-radius: 7px;
+   width: 100px;
+    border-bottom:10px solid #C2D837;
+}
+.number{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.material-symbols-outlined{
+color: yellow;
+}
+.icons{
+    vertical-align: middle;
+    margin: 0px 2px 05px 0px;
 }
