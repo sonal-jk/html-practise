@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.bar{
+    background-color: #cc622d;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+.menu ul li{
+    list-style: none;
+}
