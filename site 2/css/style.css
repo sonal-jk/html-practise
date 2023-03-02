@@ -44,11 +44,12 @@ body{
 #link{
   border-radius:4px;
   width:14%;
-  height: 3vw;
+  height: 3.5vw;
+  font-size: 2vw;
   cursor: pointer;
   color: #cc622d;
   background-color: white;
-  margin:4% 2%;
+  margin:3% 2%;
  
 
 }
@@ -80,21 +81,23 @@ h1{
 }
 
 .log{
-    margin: 80px;
+    margin: 8%;
     height: 50vw;
+    position: relative;
     border: 1px solid black;
     background-color: whitesmoke;
 }
 .log h3{
-    font-size: 4em;
-    margin: 20px 0px 60px 0px;
+    font-size: 7vw;
+    margin: 2% 0% 6% 0%;
 }
 
 .log div{
+
 display: flex;
 flex-direction: column;
 float: left;
-gap: 10px;
+gap:4vw;
 font-size: 4vw;
 margin:0vw 2vw 4vw 8vw;
 }
