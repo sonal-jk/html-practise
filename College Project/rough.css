@@ -23,9 +23,7 @@
 .navbar{
     /*background-color: rgba(188, 149, 207, 1);
     */
-    
-    background-image: url('../images/5442673.jpg');
-min-height: 100%;
+    background-image: url('images/5442673.jpg');
 }
 #ham{
     display: inline-block;
@@ -65,11 +63,10 @@ min-height: 100%;
 .menu{
     position: absolute;
     margin-top: 4px;
-    background-color: rgba(85, 82, 87,0.6);
-   
+    background-color: rgba(188, 149, 207, 1);
     width: 150px;
     font-size: large;
-    border-radius: 4px;
+    border-radius: 0px 0px 4px 4px;
    display: none;
 }
 .menu a{
@@ -102,54 +99,6 @@ min-height: 100%;
     text-decoration: none;
     color: white;
 }
-
-.hero{
-    background-image: url('../images/copta\ robo1.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 60vw;
-    color:rgb(128, 41, 209);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 4vw;
-   ive;
-
-}
-.text{
-    width: 500px;
-    position: absolute;
-    margin: 18vw 0vw 0vw 10vw;
-}
-.hero span{
-    color: white;
-    font-size: 1.8vw;
-}
-
-.hero a{
-    font-size: 1.5vw;
-    padding: 4px;
-    color: white;
-    border: 2px solid white;
-    border-radius: 20px;
-    background-color:rgba(116, 111, 111,0.1);
-    text-decoration: none;
-    margin-left: 11vw;
-}
-.hero a:hover{
-    background-color:#a75dcc;
-}
-.content{
-    margin:4vw 2vw 2vw 2vw;
-}
-.content h1{
-    margin:20px 0px;
-    font-family: Rubik Iso;
-    text-decoration-line:underline;
-}
-.content section{
-    margin: 10px;
-}
-
 footer{
     background-color: #333;
     color: whitesmoke;
@@ -162,7 +111,6 @@ footer div{
 footer section{
     font-size: 15px;
     margin: 50px 10vw 70px 0px;
-    text-align: center;
 }
 footer ul{
     
@@ -176,7 +124,6 @@ footer section a{
     
     color: whitesmoke;
 }
-
 footer section a:hover{
     color: yellow;
 }
@@ -190,7 +137,7 @@ footer section a:hover{
 }
 footer img{
     float: left;
-    margin: 6.5vw 6vw 0vw 3vw;
+    margin: 75px 10px 0px 30px;
 }
 /*
 #c1{
