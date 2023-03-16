@@ -1,6 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+
 }
 .dark{
     background-color: #1c1b1c;
@@ -17,13 +19,13 @@
   
 }
 .brand img{
-    margin-left: 10px;
-    margin-right: 10px;
-}
+margin: 0px 10px 10px 20px;}
 .navbar{
     /*background-color: rgba(188, 149, 207, 1);
     */
-    background-image: url('images/5442673.jpg');
+    
+    background-image: url('../images/5442673.jpg');
+min-height: 100%;
 }
 #ham{
     display: inline-block;
@@ -51,6 +53,7 @@
     position: relative;
     font-family: exo;
     margin-right: 40px;
+    font-weight: bold;
 }
 
 .option a, .option li{
@@ -60,27 +63,29 @@
     color: white;
    
 }
+
 .menu{
     position: absolute;
     margin-top: 4px;
-    background-color: rgba(188, 149, 207, 1);
+    background-color: rgba(85, 82, 87,0.6);
     width: 150px;
-    font-size: large;
-    border-radius: 0px 0px 4px 4px;
-   display: none;
+    border-radius: 4px;
+    display:none;
 }
-.menu a{
-    padding: 20px;
-    border-bottom: 5 solid white;
-   
+.menu li{
+    margin: 10px;
+    text-align:left;
+    margin-left: 25px;
 }
+
 .el{
     font-size: 18px;
     margin: 10px 30px 20px 20px;
 }
-.nav-link li a:hover {
-    display: block;
-    background-color: #c6a9d4;
+.nav-link li :hover {
+    visibility: visible;
+    display: contents;
+   
 
     
 }
@@ -92,13 +97,61 @@
 
 }
 .menu img{
-    height: 21px;
+    height: 22px;
 }
+
 #ham{
     visibility: hidden;
     text-decoration: none;
     color: white;
 }
+
+.hero{
+    background-image: url('../images/side\ view\ copta.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vw;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vw;
+   
+
+}
+.text{
+    width: 50%;
+    position: absolute;
+    margin: 10vw 0vw 0vw 10vw;
+}
+.hero span{
+    color: white;
+    font-size: 1.8vw;
+}
+
+.hero a{
+    font-size: 1.5vw;
+    padding: 4px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color:rgba(116, 111, 111,0.1);
+    text-decoration: none;
+    margin-left: 11vw;
+}
+.hero a:hover{
+    background-color:#a75dcc;
+}
+.content{
+    margin:4vw 2vw 2vw 2vw;
+}
+.content h1{
+    margin:20px 0px;
+    font-family: 'Rubik Iso';
+}
+.content section{
+    margin: 10px;
+}
+
 footer{
     background-color: #333;
     color: whitesmoke;
@@ -111,6 +164,7 @@ footer div{
 footer section{
     font-size: 15px;
     margin: 50px 10vw 70px 0px;
+    text-align: center;
 }
 footer ul{
     
@@ -124,6 +178,7 @@ footer section a{
     
     color: whitesmoke;
 }
+
 footer section a:hover{
     color: yellow;
 }
@@ -137,15 +192,24 @@ footer section a:hover{
 }
 footer img{
     float: left;
-    margin: 75px 10px 0px 30px;
+    margin: 6.5vw 6vw 0vw 3vw;
 }
-/*
-#c1{
-float: left;
+
+form{
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+
 }
-#c2{
-    float: right;
-}*/
+#feed{
+    display: flex;
+
+}
+#feed div input{
+    margin: 20px;
+    }
+    
 @media (max-width:762px){
     #ham{
         visibility:visible
@@ -161,40 +225,37 @@ float: left;
         background-color: #333;
         position:absolute;
         gap: 10;
-       right:-100%;
-       top: 85px;
+     
+       top: 60px;
         width: 100%;
         transition: 0.3s;
+        display:none;
       }
       .option ul li{
-       
+        background-color: #333;
         display: flex;
         flex-direction: column;
       }
-    .pr li{
-        
-        background-color: #333;
-    }
-    
+
     .menu{
-        text-align: center;
         background-color: #333;
-        justify-content: center;
         position: relative;
         width: 100%;
         margin: 0px;
 
     }
-    .menu div{
-        /*display: none;*/
-        overflow: hidden;
-        max-height: 10;
-        transition: max-height 0.2s ease-out;
+    .menu div li{
+  margin-left: 45%;
+
     }
     .cont.active{
-        right: 0;
-      }
+        display: block;
       
+       
+      }
+      .text.active{
+        display: none;
+      }
       .pr::after{
         content: '\02795';
         font-size: 15px;
