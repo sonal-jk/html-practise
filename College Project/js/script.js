@@ -17,8 +17,11 @@ function myfunc(){
     z.classList.toggle("change");
     }
 const y=document.querySelector(".cont");
+const a=document.querySelector(".text");
 z.addEventListener("click",()=> {
+a.classList.toggle("active");
 y.classList.toggle("active");
+
 
 })
 for (i = 0; i < acc.length; i++) {
