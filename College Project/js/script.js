@@ -19,19 +19,29 @@ function myfunc(){
 const y=document.querySelector(".cont");
 const a=document.querySelector(".text");
 z.addEventListener("click",()=> {
-a.classList.toggle("active");
 y.classList.toggle("active");
 
 
 })
-for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var panel = this.nextElementSibling;
-      if (panel.style.maxHeight) {
-        panel.style.maxHeight = null;
-      } else {
-        panel.style.maxHeight = panel.scrollHeight + "px";
-      }
-    });
+z.addEventListener("click",()=> {
+  a.classList.toggle("active");  
+  })
+
+let c=document.body;
+const d=document.getElementById("hide");
+d.addEventListener("click",()=>{
+  var p=document.getElementById("com");
+  var q=document.getElementById("name");
+  var r=document.getElementById("email");
+  if (p != '' || q != '' || r != ''){
+    
+    c.classList.add("hide");
+    c.classList.add("show");
   }
+  else{
+
+  }
+
+  console.log("hello");
+})
+ 
