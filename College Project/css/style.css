@@ -288,10 +288,12 @@ form h1{
 #feed input{
     width: 100%;
     margin: 1vw 2vw 4px 3vw;
+    outline: none;
     border: none;
     border-bottom: 1px solid #333;
     
 }
+
 #feed button{
    margin: 3vw 0vw 3vw 22vw;
     width: 30%;
