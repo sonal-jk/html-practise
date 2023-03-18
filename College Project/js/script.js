@@ -27,21 +27,33 @@ z.addEventListener("click",()=> {
   a.classList.toggle("active");  
   })
 
-let c=document.body;
-const d=document.getElementById("hide");
-d.addEventListener("click",()=>{
+
+  const d=document.getElementById("hide");
   var p=document.getElementById("com");
   var q=document.getElementById("name");
   var r=document.getElementById("email");
-  if (p != '' || q != '' || r != ''){
-    
+
+  r.addEventListener("keyup",(e)=>{
+    const email=e.currentTarget.value;
+    if (email===""){
+      d.disabled=true;
+    }
+    else{
+      d.disabled=false;
+    }
+
+
+  });
+
+
+
+
+
+  
+let c=document.body;
+d.addEventListener("click",()=>{
     c.classList.add("hide");
     c.classList.add("show");
-  }
-  else{
 
-  }
-
-  console.log("hello");
-})
+});
  

@@ -160,6 +160,7 @@ footer{ width: 100%;
     position: relative;
     background-color: #333;
     color: rgb(197, 193, 193);
+    
 }
 footer div{
     background-color: #333;
@@ -204,33 +205,51 @@ footer img{
 }
 #about{
     margin: 30px;
-    display: flex;
+   display: flex;
+
+    justify-content: center;
 }
 .credit{
+    
     box-shadow:3px 3px 8px #a19a9a;
     border-radius: 4px;
+    padding: 3px;
+    width:400px;
+    height: 400px;
     
 }
 .credit img{
     float: left;
-    margin: 6px;
+    border-radius: 50px;
+    margin: 8px 10px;
 }
 .credit p{
     clear: both;
     margin: 10px 10px;
 }
 .credit span{
-    margin: 10px;
+    margin: 10px 10px 10px 20px;
     font-size: 14px;
+    text-align: center;
+}
+.name{
+    margin-top: 30px;
 }
 #c1{
-    margin-right: 5%
+    margin-right: 10vw;
 }
 
 .form{
     background-color: rgb(240, 229, 248);
+    min-height: 100vh;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
     
+}
+.wrap{
+    flex: 1;
 }
 form{
     width: 60%;
@@ -239,7 +258,7 @@ form{
     border: 1px solid  rgb(255, 255, 255);;
     box-shadow: 4px 4px 6px #a19a9a;
     border-radius: 8px;
-    margin: 10%;
+    margin: 15vw 0vw ;
     background-color: rgb(255, 255, 255);
     
 
@@ -306,6 +325,11 @@ form h1{
 .imp{
     color: red;
 }
+#foot-id{
+    position: absolute;
+    bottom: 0px;
+    top: 100%;
+}
 
 
 
@@ -313,6 +337,7 @@ form h1{
 
 @media (max-width:762px){
     *{
+        
         box-sizing: border-box;
     }
     #ham{
@@ -348,6 +373,16 @@ form h1{
     .menu{
         display: none;
     }
+    #about{
+        
+        display: block;
+    }
+    .credit{
+       margin: 10% 0% 10% 3%;
+        width: 95%;
+        height: 40%;
+     
+    }
     
 .nav-link:hover ul ,.nav-link:active{
     display: block;
@@ -379,14 +414,28 @@ form h1{
     #foot{
         clear: both;
     }
+    #about{
+       
+        justify-content: center;
+       
+    }
 }
-@media(max-width:270px){
+
+@media(max-width:280px){
     footer div a{
         display: block;
         margin-bottom: 10px;
     }
     footer div{
         margin: 0px 2px;
+    }
+   
+    .name{
+        clear: both;
+    }
+    .credit img{
+        position: relative;
+        margin-left: 9vw;
     }
 }
 /*
