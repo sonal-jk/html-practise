@@ -331,8 +331,10 @@ form h1{
     top: 100%;
 }
 
-
-
+.app{
+    color: #a75dcc;
+    font-weight: bold;
+}
 
 
 @media (max-width:762px){
