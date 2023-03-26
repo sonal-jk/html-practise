@@ -343,7 +343,7 @@ form h1{
 }
 .project{
     background-color: white;
-    margin: 0% 15% 0% 15%;
+    margin: 1% 15% 0% 15%;
     padding: 18px;
     font-size: 15px;
 }
@@ -352,7 +352,7 @@ form h1{
 }
 .ab{
     background-color: grey;
-    width: 50vw;
+    width: 51.5vw;
     height: 30vw;
    margin:0% 10%;
    justify-content: center;
@@ -489,7 +489,37 @@ footer img{
         justify-content: center;
        
     }
-  
+    .project{
+        font-size: 3vw;
+    margin: 0; width: 100%;
+    }
+    .robo{
+     
+        padding: 7%;
+        justify-content: center;
+    }
+    .para video{
+        width: 100%;
+        margin: 0% 0%;
+    }
+    .ab{
+        
+        width: 100%;
+        height: 50vw;
+       margin:0% 10%;
+       justify-content: center;
+       margin: auto;
+    }
+       .icons{
+        height: 45vw;
+        width: 15vw;
+     
+   
+    }
+    .icons img{
+        height: 5vw;
+        width: 5vw;
+    }
 }
 
 @media(max-width:280px){
@@ -518,6 +548,7 @@ footer img{
     }
     .project{
         font-size: 3vw;
+    margin: 0; width: 100%;
     }
 }
 /*
