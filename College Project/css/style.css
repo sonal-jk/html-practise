@@ -70,7 +70,7 @@ min-height: 100%;
     position: absolute;
     margin-top: 4px;
     background-color: rgba(85, 82, 87,0.6);
-    width: 150px;
+    width: 160px;
     border-radius: 4px;
     display:none;
 }
@@ -194,10 +194,7 @@ footer hr{
     margin: 0.5rem;
 }
 
-footer img{
-    float: left;
-    margin: 6.5vw 6vw 0vw 3vw;
-}
+
 
 #creator{
     margin:10% 30% 10% 30%;
@@ -225,6 +222,7 @@ footer img{
 }
 .credit p{
     clear: both;
+    text-align: left;
     margin: 10px 10px;
 }
 .credit span{
@@ -286,6 +284,10 @@ form{
     background-color: #ca9af7;
     width: 30%;
 }
+#form2 button a{
+    text-decoration: none;
+    color: white;
+}
 
 #feed{
     display: flex;
@@ -336,6 +338,71 @@ form h1{
     font-weight: bold;
 }
 
+.model{
+    background-color: #e2e0e0;
+}
+.project{
+    background-color: white;
+    margin: 0% 15% 0% 15%;
+    padding: 18px;
+    font-size: 15px;
+}
+.ok{
+    margin: 10px 0px;
+}
+.ab{
+    background-color: grey;
+    width: 50vw;
+    height: 30vw;
+   margin:0% 10%;
+   justify-content: center;
+   margin: auto;
+}
+.robo video{
+    margin:3% 10%;
+}
+.robo{
+    width: 100%;
+    
+}
+.para{
+    padding: 5px;
+}
+.para h1{
+   text-align: center;
+  
+}
+.para h1{
+    color: #a75dcc;
+    font-family:'Times New Roman', Times, serif;
+    margin: 15px 0px;
+}
+.para p{
+    margin: 20px 0px;
+}
+footer img{
+    height: 25px;
+   
+}
+
+.icons{
+    height: 500px;
+    width: 150px;
+    background: none;
+    position: absolute;
+    left: 10px;
+    top: 45%;
+    position: fixed;
+}
+.icons a{
+    margin: 10px 0px 0px 2px;
+    display: flex;
+    flex-direction: column;
+}
+.icons img{
+    height: 30px;
+    width: 30px;
+}
 
 @media (max-width:762px){
     *{
@@ -366,15 +433,16 @@ form h1{
         position: relative;
         width: 100%;
         margin: 0px;
-
+        
     }
     .menu  li a{
-  margin-left: 45%;
+  margin: 10% 10%;
 
     }
     .menu{
         display: none;
     }
+   
     #about{
         
         display: block;
@@ -421,6 +489,7 @@ form h1{
         justify-content: center;
        
     }
+  
 }
 
 @media(max-width:280px){
@@ -438,6 +507,17 @@ form h1{
     .credit img{
         position: relative;
         margin-left: 9vw;
+    }
+    .menu li a{
+        margin: 15px;
+        padding: 4px;
+    }
+    .nav-link a{
+        font-size: 5vw;
+        margin: 5px;
+    }
+    .project{
+        font-size: 3vw;
     }
 }
 /*

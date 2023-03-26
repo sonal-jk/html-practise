@@ -35,7 +35,10 @@ z.addEventListener("click",()=> {
 
   r.addEventListener("keyup",(e)=>{
     const email=e.currentTarget.value;
-    if (email===""){
+    var atposition=email.indexOf("@");  
+var dotposition=email.lastIndexOf(".");  
+
+   if (atposition<1 || dotposition<atposition+2 || dotposition+2>=email.length){  
       d.disabled=true;
     }
     else{
@@ -44,7 +47,6 @@ z.addEventListener("click",()=> {
 
 
   });
-
 
 
 

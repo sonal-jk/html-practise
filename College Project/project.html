@@ -12,7 +12,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,200,1,0" />
 </head>
-<body>
+<body id="top" class="model">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+
+
     <nav class="navbar p-0 text-white" id="top">
   
         <span class="brand text-white  "><a href="index.html"><img src="images/white logo.png" height="43px" width="50px" alt="logo"></a></span>
@@ -30,15 +36,16 @@
                 <li class="nav-link p-1 "><a class="el pr" href="#">Projects </a>
                     
                     <ul class="menu p-0" >
-                        
-                        <li><a href="#">a</a></li>
-                        <li><a href="#">b</a></li>
-                        <li><a href="#">c</a></li>
+                        <div>
+                        <li><a href="project.html#robo1">Robo Copta</a></li>
+                        <li><a href="project.html#robo2">Robo Alexa</a></li>
+                        <li><a href="project.html#robo3">Robo Pum</a></li>
+                    </div>
                     </ul>
                 </li>
                 <li class="nav-link p-1 "><a class="el"  href="index.html#creator">About</a></li>
                 
-                <li class="dropdown nav-link p-1  "><a class="el pr"  href="Feedback.html">Contact Us </i></a>
+                <li class="dropdown nav-link p-1  "><a class="el pr"  href="#">Contact Us </i></a>
                     <ul class="menu p-0">
                         
                     <li><a href="https://www.instagram.com/kanix_op/?igshid=NTE5MzUyOTU%3D" target="_blank">
@@ -61,18 +68,80 @@
         </div>
     </div>
       </nav>  
-<div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolorem laudantium nesciunt praesentium impedit magnam voluptatum ut placeat alias beatae reprehenderit eum sint, quas velit eius, harum consectetur ipsa quaerat!</p>
-<div>
+
+ 
+   
+    <div class=" project">
+        <p>Check out our models!</p>
+  
+    <hr>
+<div class="robo">
+<div class="para">
+    <div><a id="robo1"><h1>ROBO COPTA</h1></a>
+    <p>This robot's name is COPTA. She is 15 days old. Her design was made using Blender 3D.It took 45 hrs to render the model and 24 hrs to export it. <br>
+    Her design is simple yet captivating.She is made with the purpose of being used as a military AI drone. She can fly near enemy base without being noticed.  </p>
+</div>
+<div class="ok">
+<model-viewer class="ab" src="3D models/robo copta.glb"
+alt="A 3D model of a robot"
+shadow-intensity="1"
+ar 
+auto-rotate
+camera-controls></model-viewer></div>
+<video src="3D models/1.mov" loop width="80%"
+     autoplay></video>
+</div>
+</div><hr>
+<div class="robo">
+    <div class="para">
+        <div><a id="robo2"><h1>ROBO ALEXA</h1></a>
+        <p>This robot's name is ALEXA. He is 1 month old. His design was made using Blender 3D.It took 36 hrs to render the model and 24 hrs to export it. <br>
+            His design is like a humanoid.He is made with the purpose of being used as a military robot so that he can fight on the field and overpower the enemies. </p>
+    </div>
+    <div class="ok">
+    <model-viewer class="ab" src="3D models/robo alexa.glb"
+    alt="A 3D model of a robot"
+    shadow-intensity="1"
+    ar 
+    auto-rotate
+    camera-controls></model-viewer></div>
+    <video src="3D models/2.mov" loop width="80%"
+         autoplay></video>
+    </div>
+    </div>
+<hr>
+    <div class="robo">
+        <div class="para">
+            <div><a id="robo3"><h1>ROBO PUM</h1></a>
+            <p>This robot's name is PUM. He is 3 days old. His design was made using Blender 3D.It took 39 hrs to render the model and 24 hrs to export it. <br>
+                He looks like a real-life dog.He is made with the purpose of being used as a military robo dog.  </p>
+        </div>
+        <div class="ok">
+        <model-viewer class="ab" src="3D models/robo pum.glb"
+        alt="A 3D model of a robot"
+        shadow-intensity="1"
+        ar 
+        auto-rotate
+        camera-controls></model-viewer></div>
+        <video src="3D models/1.mov" loop width="80%"
+             autoplay></video>
+        </div>
+        </div>
 
 
+    </div>
+    <div class="icons">
+        <div>
+            <a href="https://mail.google.com/a/saitm.org/?view=cm&fs=1&to=kanishk_217006@saitm.org"><img src="images/mail.png" alt=""></a>
+            <a href="https://instagram.com/she__who_must_not_be_named__?igshid=ZDdkNTZiNTM="><img src="images/square.png" alt=""></a>
+            <a href="https://github.com/sonal-jk/html-practise"><img src="images/git.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/sonal-jakhmola-15461022a"><img src="images/in.png" alt=""></a>
+        </div>
+    </div>
 
-
-<footer>
+    <footer>
     <div>
-     <!--   
-    <a href="index.html"><img src="images/white logo.png" height="150px" width="150px" alt="">
-    </a>-->
+
     <div id="foot">
     <section id="opt">
     <a href="index.html">Home</a>
