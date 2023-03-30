@@ -5,7 +5,10 @@
    
 
 }
-
+html,body{
+    margin: 0;
+    overflow-x: hidden;
+}
 .dark{
     background-color: #1c1b1c;
     color: white;
@@ -23,11 +26,7 @@
 .brand img{
 margin: 0px 10px 10px 20px;}
 .navbar{
-    /*background-color: rgba(188, 149, 207, 1);
-    */
-    
     background-image: url('../images/5442673.jpg');
-min-height: 100%;
 }
 #ham{
     display: inline-block;
@@ -238,25 +237,61 @@ footer hr{
 }
 
 .form{
-    background-color: rgb(240, 229, 248);
-    min-height: 100vh;
-    height: 100%;
+    background-color: rgb(110, 30, 167);
+    max-height: 100vh;
+   
     display: flex;
     flex-direction: column;
     position: relative;
     
 }
 .wrap{
+    min-height: calc(100vh - 62.5px - 104.69px);
+    display: flex;
     flex: 1;
+   
+
+}
+.line{
+    
+    width: 70px;
+    border-radius: 20px;
+    height: 5px;
+    background-color: #f89a28;
+    margin:6px 0px;
+
+}
+#data{
+    color: white;
+    width: 40%;
+    margin: 4% 2% 4% 4% ;
+    padding:2% 2%;
+    overflow:visible;
+}
+#data div {
+    margin: 2vw;
+}
+
+
+
+#data p{
+    margin-top: 4%;
+}
+#follow{
+    text-align: center;
+}
+#follow img{
+    margin: 4px;
 }
 form{
-    width: 60%;
-    height: 80%;
+    width: 80%;
+    height: 100%;
+
     text-align: left;
     border: 1px solid  rgb(255, 255, 255);;
     box-shadow: 4px 4px 6px #a19a9a;
     border-radius: 8px;
-    margin: 15vw 0vw ;
+    margin: 2vw 10% ;
     background-color: rgb(255, 255, 255);
     
 
@@ -293,23 +328,34 @@ form{
 #feed{
     display: flex;
     flex-direction: column;
-    margin: 5% 2% 18% 2%;
+  
+    margin: 2% ;
     width: 80%;
+    height: 90%;
   
     
 }
-form h1{
+.page{
+    width: 50%;
+    margin: 4%;
+ 
+
+}
+form h3{
+    padding: 1px;
+    margin-top: 10px;
     text-align: center;
-    margin: 8%;
+
+  
 }
 
 
 #feed label{
-    margin: 4vw 2vw 0px 3vw;
+    margin: 2% 2% 1% 2%;
     }
 #feed input{
     width: 100%;
-    margin: 1vw 2vw 4px 3vw;
+    margin: 1% 2% 2% 2%;
     outline: none;
     border: none;
     border-bottom: 1px solid #333;
@@ -320,8 +366,9 @@ form h1{
     opacity: 0.4;
 }
 #feed button{
-   margin: 3vw 0vw 3vw 22vw;
+   margin: 6% 45%;
     width: 30%;
+    padding: 2px;
     border: none;
     border-radius: 25px;
     font-size:2.5vw;
@@ -525,6 +572,48 @@ footer img{
         height: 5vw;
         width: 5vw;
     }
+    #page{
+        width: 80vw;
+        height: 80vw;
+        align-self: center;
+        justify-content: center;
+        left: 50%;
+        right: 50%;
+        margin-bottom: 100px;
+    }
+    form{
+        padding: 5vw;
+        width: 150%;
+        max-height: 90%;
+        margin: 20% 17%;
+       
+    
+    }
+    #feed label{
+        margin: 2% 2% 2% 1%;
+        }
+    #feed input{
+        width: 100%;
+        margin: 1% 2% 4% 1%;
+    
+ 
+        
+    }
+
+    #data{
+        width: 0%;
+        height: 0px;
+        display: none;
+        visibility: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    .wrap{
+        height: 100vw;
+        margin-bottom: 8%;
+        box-sizing: border-box;
+    }
+
 }
 
 @media(max-width:280px){

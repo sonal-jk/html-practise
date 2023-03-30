@@ -10,8 +10,36 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,200,1,0" />
     <link rel="icon" href="images/white logo.png" >
     <title>Feedback Form</title>
+    <style>
+        footer{
+            margin-top: 8%;
+        }
+        @media only screen and (max-width:762px){
+            html,body{
+                width: 100%;
+     
+                margin: 0;
+                padding: 0;
+                overflow-x:hidden;
+            }
+       
+            footer{
+                position: relative;
+                position: static;
+            
+                bottom: 0%;
+               
+            }
+            
+        }
+    </style>
+
+
+
 </head>
+
 <body  class="form" id="top">
+  
     <nav class="navbar p-0 text-white" id="top">
   
         <span class="brand text-white  "><a href="index.html"><img src="images/white logo.png" height="43px" width="50px" alt="logo"></a></span>
@@ -65,10 +93,32 @@
 
 
 <div class="wrap">
-<div>
-    <center>
+<div id="data">
+    <div ><img src="images/white logo.png" height="60vw" alt=""><span style="font-size: 40px; padding: 10px; vertical-align: middle;">Robo3D</span>
+    <br>
+<p>
+A website dedicated to exploring the world of  3D modelling and projects, made with HTML, CSS, and JavaScript using Blender for 3D models.</p>
+<div class="line"></div>
+ OUR GOAL
+ <br>
+ -To explore the world of 3D modeling. <br>
+ -Provide information about it. <br>
+ -Provide sources to interested users.
+
+<div class="line"></div>
+<div id="follow">
+FOLLOW US ON <br>
+<a href="https://www.instagram.com/kanix_op/?igshid=NTE5MzUyOTU%3D"><img src="images/instagram.png" height="40px" alt=""></a>
+<a href="https://www.linkedin.com/in/kanishk-chaudhary-59722822a "><img src="images/linkedin.png" height="40px" alt=""></a>
+<a href="https://mail.google.com/a/saitm.org/?view=cm&fs=1&to=sonal_213025@saitm.org"><img src="images/gmail.png" height="40px" alt=""></a></div>
+
+</div>
+</div>
+
+<div class="page">
+  
         <form id="form1" action="">
-            <h1>Feel free to give Feedback!</h1>
+            <h3>Feel free to give Feedback!</h3>
             <div id="feed">
           
             <label for="">Comment<span class="imp">*</span> :</label>
@@ -82,9 +132,9 @@
 
            <button disabled type="button" id="hide">SUBMIT</button>
         </div>
-        </form></center></div>
+        </form>
 
-        <div>
+        
             <center>
             <form id="form2" action="">
                 <h1>Thanks for the Feedback! </h1>
