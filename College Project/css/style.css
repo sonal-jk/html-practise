@@ -277,11 +277,12 @@ form{
 }
 #form2 button{
     margin: 20px;
+    border: none;
     border-radius: 25px;
     font-size:2vw;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-    background-color: #ca9af7;
+    background-color: #9b43ee;
     width: 30%;
 }
 #form2 button a{
@@ -315,14 +316,18 @@ form h1{
     
 }
 
+#feed button:disabled{
+    opacity: 0.4;
+}
 #feed button{
    margin: 3vw 0vw 3vw 22vw;
     width: 30%;
+    border: none;
     border-radius: 25px;
     font-size:2.5vw;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-    background-color: #ca9af7;
+    background-color: #9b43ee;
 }
 .imp{
     color: red;
