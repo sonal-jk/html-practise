@@ -239,7 +239,6 @@ footer hr{
 .form{
     background-color: rgb(110, 30, 167);
     max-height: 100vh;
-   
     display: flex;
     flex-direction: column;
     position: relative;
@@ -265,7 +264,7 @@ footer hr{
     color: white;
     width: 40%;
     margin: 4% 2% 4% 4% ;
-    padding:2% 2%;
+    padding:auto 2%;
     overflow:visible;
 }
 #data div {
@@ -281,12 +280,11 @@ footer hr{
     text-align: center;
 }
 #follow img{
-    margin: 4px;
+    margin: 4%;
 }
 form{
     width: 80%;
-    height: 100%;
-
+    height: 450px;
     text-align: left;
     border: 1px solid  rgb(255, 255, 255);;
     box-shadow: 4px 4px 6px #a19a9a;
@@ -366,7 +364,7 @@ form h3{
     opacity: 0.4;
 }
 #feed button{
-   margin: 6% 45%;
+   margin: 8% 45%;
     width: 30%;
     padding: 2px;
     border: none;
@@ -584,7 +582,7 @@ footer img{
     form{
         padding: 5vw;
         width: 150%;
-        max-height: 90%;
+        max-height: 450px;
         margin: 20% 17%;
        
     
