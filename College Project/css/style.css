@@ -517,6 +517,17 @@ footer img{
 .use ul{
     margin:40px 20px;
 }
+.use ol{
+    list-style: none;
+}
+.use ol b ,.use ol h2{
+    color:#060047;
+
+    }
+    .use li{
+        margin: 20px 0px;
+    }
+
 #back{
     border: 1px solid #ddddd8;
     width: 25px;
@@ -537,6 +548,8 @@ footer img{
     color: #060047;
     text-decoration: underline;
 }
+
+
 
 @media (max-width:762px){
     *{
