@@ -112,7 +112,7 @@ margin: 0px 10px 10px 20px;}
 .hero{
     background-image: url('../images/side\ view\ copta.png');
     background-size: cover;
-    background-repeat: no-repeat;
+     background-repeat: no-repeat;
     width: 100%;
     height: 50vw;
     color:white;
@@ -349,11 +349,11 @@ form h3{
 
 
 #feed label{
-    margin: 2% 2% 1% 2%;
+    margin: 2% 2% 1% 8%;
     }
 #feed input{
     width: 100%;
-    margin: 1% 2% 2% 2%;
+    margin: 1% 2% 2% 8%;
     outline: none;
     border: none;
     border-bottom: 1px solid #333;
@@ -453,6 +453,90 @@ footer img{
     height: 30px;
     width: 30px;
 }
+.ohh{
+    display: flex;
+}
+.topics{
+    width: 320px;
+    border-right: 1px solid #ddddd8;
+    padding: 2px 1%;
+    font-size: 15px;
+}
+.topics div{
+    position: fixed;
+    top: 130px;
+    
+}
+.topics ul{
+    margin: 40px 0px;
+    padding: 0;
+}
+.topics ul li{
+    list-style: none;
+    margin: 30px 0px;
+    padding: 2px 0px;
+    vertical-align: middle;
+}
+.topics  b{
+    margin: 28%;
+    color: #B3005E;
+    font-size: large;
+    text-align: center;
+}
+.use{
+    width: 70%;
+    padding: 4px;
+    margin: 4% 5%;
+}
+
+.flex-container{
+    display: flex;
+    margin: 20px 0px;
+
+    
+}
+.flex-container div{
+    padding:4px ;
+
+}
+.flex-container a, .topics a {
+    text-decoration: none;
+    color: #E90064;
+}
+
+.flex-container a:hover, .topics  a:hover{
+    color: #20262E;
+}
+.use section{
+    margin: 50px 0px;
+}
+.use section h1{
+    color: #B3005E;
+    margin: 30px 0px;
+}
+.use ul{
+    margin:40px 20px;
+}
+#back{
+    border: 1px solid #ddddd8;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    position: fixed;
+    right: 2px;
+    bottom: 0px;
+    top:95vh;
+ 
+}
+
+.link{
+    color: #E90064;
+    text-decoration: none;
+}
+.link:hover{
+    color: #060047;
+    text-decoration: underline;
+}
 
 @media (max-width:762px){
     *{
@@ -467,15 +551,21 @@ footer img{
         display: block;
         width: 100%;
     }
-    
+ 
+
     .cont{
         background-color: #333;
         position:absolute;
         top: 60px;
+        right:-100%;
         width: 100%;
         transition: 0.3s;
-        display: none;
+     
       
+      }
+      .cont.active{
+        right: 0;
+        display: block;
       }
 
     .menu{
@@ -508,11 +598,7 @@ footer img{
     display: block;
 
 }
-    .cont.active{
-        display: block;
-      
-       
-      }
+
       .text.active{
         display: none;
       }
@@ -611,8 +697,26 @@ footer img{
         margin-bottom: 8%;
         box-sizing: border-box;
     }
+    .topics{
+        display: none;
+    }
+    .use{
+        width: 100%;
+        margin: 5%;
+    }
 
+
+  /* .blur{
+    filter: none;
+    filter: blur(0);
+    filter: blur(2px);
+    }
+    body>*{
+        filter: blur(2px);
+    }*/
 }
+
+
 
 @media(max-width:280px){
     footer div a{

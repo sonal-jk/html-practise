@@ -15,6 +15,7 @@ const z=document.getElementById("ham");
 function myfunc(){
     
     z.classList.toggle("change");
+    document.querySelector("body").classList.toggle("blur");
     }
 const y=document.querySelector(".cont");
 const a=document.querySelector(".text");
