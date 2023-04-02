@@ -118,6 +118,7 @@ The commercial CAD programs were used before the development of AutoCAD. The Aut
             <section id="setup">
                 <h1>Setting Up the Workspace</h1>
                 <p>First, let’s bring out all the 3D modeling tools we’ll need to complete this tutorial. </p>
+                <img src="images/autocad-display2.png" alt="">
                     <ul><li>Looking at the Quick Access Toolbar, click on the downward extend arrow to customize this toolbar. A dropdown menu will pop up; click on “Workspace” to enable this feature</li>
                         <li>Now the Quick Access Toolbar will display a new button. By default, it’s “Drafting & Annotation”, but let’s change it to “3D Modeling” by clicking on it and selecting this choice from the dropdown menu. This will allow us to use all 2D and 3D tools required for our tutorial.</li>
                         <li>Lastly, to change units, click on the AutoCAD logo in the top-left corner. This will open the AutoCAD menu. Go to “Drawing Utilities > Units”. In this tutorial, we’ll use the metric system, so change the “Insertion Scale” to millimeters</li>
@@ -136,6 +137,7 @@ The commercial CAD programs were used before the development of AutoCAD. The Aut
                         <li>Next, let’s make a circle with its center at (0,50). Confirm the coordinates by pressing Enter. Then, set the radius to 8 mm.
 <br>
                             If you made a mistake, simply double-click on the sketch you want to edit. Edit the values in the pop-up window.</li>
+                            <img src="images/circle.jpg" alt="">
                             <li>Next, create an ellipse centered at (0,30). Set the major radius (parallel to the X-axis) to 70 mm and the minor radius to 30 mm, like the image below.</li>
                         </ul>
             </section>
@@ -145,6 +147,7 @@ The commercial CAD programs were used before the development of AutoCAD. The Aut
                <p>3D modeling might be one of the most interesting parts of this tutorial. Going 3D will allow you to design your own models for 3D printing.
                 <br>Let’s start with some direct modeling tools. This is when we use predefined shapes like spheres and cubes to create objects via Boolean operations (union, subtraction, and intersect).
                </p> 
+               <img src="images/image-3.png" alt="">
                <ul style="margin: 20px;">
                 <li>First, switch to the isometric view through the View Cube by clicking on the little house icon.</li>
                <li>Now let’s start by creating a perfectly round body. Type in “sphere” and center it at (0,0). Once that’s set, move your mouse around it to gain form. Alternatively, enter a value for the radius which in this case is 10 mm.</li>
@@ -155,12 +158,14 @@ The commercial CAD programs were used before the development of AutoCAD. The Aut
 
             <section id="visuals">
                 <h1> Changing Visuals</h1>
+                <img src="images/AutoCAD-3D-Rotate-12.jpg" alt=""><br><br>
                 <p>If you want to change the visual effects when displaying 3D objects, you can do so by typing in “visualstyles”. A new window will open where you can choose the visual style you prefer.
                     <br>Let’s change the visual style from “2D Wireframe” to “Shades of Grey”. <br>Now, let’s try some of the Boolean operations mentioned before. First, let’s create a cylinder that overlaps the sphere we just created.
                     <br><br>To do that, type in “cylinder” and draw the base of the cylinder just like you would a simple circle. Choose the CenterPoint (0,0) as the origin and go for a 10 mm radius. Next, similarly to the sphere, move the mouse downwards to see it extrude. Set its height to 25 mm and confirm by pressing Enter.
-                </p>
+                </p><br>
+                <img src="images/maxresdefault.jpg" alt="">
         
-                 <ull><li>
+                 <ul><li>
                     The first operation we’ll learn here is union, where objects are merged. The sphere and cylinder might look like one piece but they’re still two separate parts.</li>
                     <li>To join them, type in “union” and select both shapes. Confirm the operation by hitting Enter, and now you should have one solid body.</li>
                     <li>Another basic operation is subtraction. Let’s reverse the last union operation first by clicking on “Undo” at the Quick Access Toolbar.</li>
@@ -185,6 +190,8 @@ The commercial CAD programs were used before the development of AutoCAD. The Aut
         <br>
         Next, we need to select a base point for the move. With your mouse, select the center point of the cylinder’s base. Hit Enter to confirm.
 <br>
+<img src="images/AutoCAD-3D-Rotate-10.jpg" alt="">
+<br><br>
 Once we’ve confirmed what we want to move, there are various ways to move the cylinder around: with the mouse through the XY plane or by entering a distance and direction for the move through polar coordinates.
 <br>
 We can also perform linear translations through the XZY axes. Note the three-axis arrow shape at the center of the cylinder. Click on the blue one (Z) to move it vertically with the mouse or by entering the distance.

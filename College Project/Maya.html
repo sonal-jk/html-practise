@@ -130,6 +130,8 @@
 
             <section id="tools">
                 <h1>Maya Tools</h1>
+               
+                <img src="images/Maya-Tools.png" alt=""><br><br><br>
                 <p>Following are some top tools available in Maya to help you with your modelling needs</p>
         
                  <ol><li><h2>The Transform Tool</h2>
@@ -151,7 +153,9 @@
                 <p>Maya provides a good modeling system called NURBS (Non-Uniform Rational B-Splines). This system is not about creating objects together. It creates objects from curves and surfaces rather than fixed polygons. To do the rendering of any object, we need to add color, material, texture, and lightning to any object. To do that, follow the below steps.</p>
         
                 <ul><li><b>Step 1:</b>To do that first, import or design the object in Maya. After importing that modal, keep “shading all” and “wireframe on shaded” tick marked</li>
+                    <img src="images/Rendering-in-Maya-1-1.png" alt="">
                     <li><b>Step 2:</b> Now, we have to add material on an object; to do so, right-click on an object a pop will appear to click on Assign New Material from the pop-up menu</li>
+                    <img src="images/Rendering-in-Maya-1-2.png" alt="">
                     <li><b>Step 3:</b>   Now select suitable material from the pop-up. Here we have selected Phong from the list.</li>
                     <li><b>Step 4:</b>Attribute list will appear. Select suitable attributes from the list like color, transparency, etc.
                         
@@ -159,10 +163,12 @@
                     <li><b>Step 5:</b> Now, we can add texture to the object by clicking on the right side of the color box.
                         
                         A pop will appear to select a suitable texture from the appeared window.</li>
+                        <img src="images/Rendering-in-Maya-1-16.png" alt="">
                     <li><b>Step 6:</b>: We can also select suitable shading and lighting for the object from the toolbar appearing on the menu bar.
                     </li>
                     <li><b>Step 7:</b> The next step is to add a camera to the object to illuminate it to get a good quality rendered view. To do that click on create > camera >  camera.</li>
                     <li><b>Step 8:</b> Now, we will render the view for that click on Open Render View icon appearing on the top of the screen.</li>
+                    <img src="images/Rendering-in-Maya-1-12.png" alt="">
                     <li><b>Step 9:</b>A rendering pop up window will appear on the screen to change the rendering settings.</li>
                     <li><b>Step 10:</b> The final step is to click on the render button to start and complete the task with the above settings.</li>
                     
@@ -171,8 +177,9 @@
         
             <section id="rigging">
                 <h1>Rigging</h1>
-                <p>Rigging in Maya is used to give control points to the animator from which the animation can be done. As the actual polygons are not touched, but the controls are used for animation, and to create these controls, we rig the model. Rigging the foundation on which we do animation, so let’s make our foundation strong
+                <p>Rigging in Maya is used to give control points to the animator from which the animation can be done. As the actual polygons are not touched, but the controls are used for animation, and to create these controls, we rig the model. Rigging the foundation on which we do animation, so let’s make our foundation strong.
         <br>
+        <br><img src="images/Rigging-in-Maya-8.jpg" alt=""><br><br>
         Below is the step to use rigging in Maya:</p>
         <ul><li><b>Step 1:</b> In this section, we will rig the character using a quick rig tool, but before that, we will see what happens if we directly interact with the geometry.</li>
             <li><b>Step 2:</b> This will deform the geometry in ways which is undesirable. To avoid this problem, we have to add a skeleton to the model. To do that, first, undo the above changes, and then we will go in the Rigging menu and from there Skeleton > Quick Rig to get a general idea.
@@ -182,6 +189,7 @@
             <li><b>Step 5:</b> What actually happened is that as you can see above, each vertex is controlled by a skeleton, and each is given weights as to which vertices will be influenced by the bones and a value from 0 to 1 will be assigned, which will determine which vertex will follow which join</li>
             <li><b>Step 6:</b>Grab the handle on the left and drag it to control it.
             </li>
+            <img src="images/Rigging-in-Maya-15.jpg" alt="">
             <li><b>Step 7:</b>As you can see, when we start dragging, it is not accurate as the joints placed by the quick rig is not accurate, which we will improve later. But when we actually animate the character, we have to hide the bones as the keyframe animations will be done on the controls, not on geometry or joints.</li>
             <li><b>Step 8:</b>We hide the joints by going in the Show in viewport menu and uncheck Joints which will be the view for the animator. We do the entire process of rigging by keeping the animator in mind.</li>
             
@@ -192,16 +200,21 @@
                 <h1>Animation</h1>
                 <p>Here in this article, we will tell you about Maya animation in a few simple steps with an example and brief you on some important parameters of Maya animation so that you can handle it without any problem. So let us start our learning about this topic in Maya software. <br>
                     Here I will show you a simple animation example of a ball hitting a series of cuboids to easily understand this feature in Maya software. After this, you can make a complex animation also in this software. Before starting, let us have a look at the working screen for our better understanding</p>
+                    <img src="images/promo.jpg" alt="">
                     <ul><li><b>Step 1:</b> The Menu bar option will change according to changing the method of working from this list.</li>
                         <li><b>Step 2:</b>  The Menu bar option will change according to changing the method of working from this list.</li>
                         <li><b>Step 3:</b> Now, draw a plane according to you in the Perspective viewport. You can draw it in any other viewport according to your suitability by pressing a space bar for other viewports. You can adjust the size of the plane by using the Scale command of this software. For Scale command-click on the Scale icon of Manipulating toolbar, or you can press the R button for the handle point of Scale command on your object</li>
+                        <img src="images/Maya-Animation-1.jpg" alt="">
                         <li><b>Step 4:</b>Now, take a Cube command from the quick access toolbar of this software by click on it and draw a cuboid like this.</li>
+                        
                         <li><b>Step 5:</b> Now press the Spacebar of the keyboard for all four viewports and adjust the cuboid at the center of your plane by using the move tool command. For the Move tool, click on the move tool icon of the Manipulating toolbar, or you can press W from the keyboard. Now move the object by using arrow handles of this axis..</li>
                         <li><b>Step 6:</b>Now press the keys Ctrl + D, duplicating a copy of this cuboid, and drag it in the forwarding direction.Make a series of cuboids like this by making copies of this cuboid model.
                         </li>
+                        <img src="images/Maya-Animation-10.jpg" alt="">
                         <li><b>Step 7:</b> Now, take a Sphere tool command from a quick access toolbar by click on it and draw a sphere like this. You can drag the sphere of any size according to you.</li>
                         <li><b>Step 8:</b> Now select the plane by click on it and choose the FX method from the method of working from this list.</li>
                         <li><b>Step 9:</b>Now go to the Field/Solvers menu of the Menu bar of the FX method. A drop-down list will be open; click on the ‘Create Passive Rigid Body’ option of this list</li>
+                        <img src="images/Maya-Animation-19.jpg" alt="">
                         <li><b>Step 10:</b> Now, I want the sphere drop on the first cuboid so that I will click on the Gravity option of the drop-down list of Field/Solvers menu of the Menu bar.</li>
                         <li><b>Step 11:</b>  Now, we need a proper keyframe for playing our animation. So I will take 200  as the value of the keyframe. You can take it according to you.</li>
                         <li><b>Step 12:</b>Now play the animation by pressing the play button from the lower right end of the working area.</li> 
@@ -211,7 +224,9 @@
             <section id="models">
                 <h1>Maya 3D Models</h1>
                 <p>3d models are three-dimensional objects created with x, y, and z-axis respectively. Autodesk Maya is a popular 3D modeling and animation program. The users can create extraordinary 3D models such as character models, architectural models, and basic 3D objects as well.
-<br>
+                    <br><br>
+                    <img src="images/mjolnir.png" alt="">
+<br><br>
                     Autodesk Maya supports a number of plugins and features that helps the user to create simple 3d models and objects.
                 <br>To create 3d models in Maya the users can use three basic functions or tools for the same.</p>
         

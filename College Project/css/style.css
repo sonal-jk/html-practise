@@ -486,7 +486,7 @@ footer img{
 .use{
     width: 70%;
     padding: 4px;
-    margin: 4% 5%;
+    margin: 4% 10%;
 }
 
 .flex-container{
@@ -536,7 +536,7 @@ footer img{
     position: fixed;
     right: 2px;
     bottom: 0px;
-    top:95vh;
+    top:93vh;
  
 }
 
@@ -548,7 +548,11 @@ footer img{
     color: #060047;
     text-decoration: underline;
 }
-
+.use img{
+    
+    width: 100%;
+    
+}
 
 
 @media (max-width:762px){
