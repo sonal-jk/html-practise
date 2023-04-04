@@ -209,9 +209,11 @@ footer hr{
     
     box-shadow:3px 3px 8px #a19a9a;
     border-radius: 4px;
+
     padding: 3px;
     width:400px;
     height: 400px;
+    margin: 0px 4%;
     
 }
 .credit img{
@@ -233,7 +235,7 @@ footer hr{
     margin-top: 30px;
 }
 #c1{
-    margin-right: 10vw;
+    
 }
 
 .form{
@@ -457,8 +459,7 @@ footer img{
     display: flex;
 }
 .topics{
-    width: 350px;
-    
+    width: 400px; 
     border-right: 1px solid #ddddd8;
     padding: 2px 1%;
     font-size: 15px;
@@ -557,7 +558,13 @@ footer img{
     width: 100%;
     
 }
+@media (min-width:763px) and (max-width:996px){
+    .credit{
+        margin: 0px 0.5%;
+        height:450px;
+    }
 
+}
 
 @media (max-width:762px){
     *{
@@ -577,15 +584,15 @@ footer img{
     .cont{
         background-color: #333;
         position:absolute;
-        top: 60px;
-        right:-100%;
+        
+        top:-1000%;
         width: 100%;
         transition: 0.3s;
      
       
       }
       .cont.active{
-        right: 0;
+        top: 60px;
         display: block;
       }
 
@@ -766,6 +773,10 @@ footer img{
     .project{
         font-size: 3vw;
     margin: 0; width: 100%;
+    }
+    .credit img{
+        width: 40vw;
+        height: 40vw;
     }
 }
 /*
