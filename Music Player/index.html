@@ -5,9 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Player</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.5.6/plyr.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="js/mediaelement-and-player.min.js"></script>
 </head>
 <body>
-    <audio src="#" preload controls>hello</audio>
-    
+    <div class="container-fluid" >
+        <div class="cont">
+    <span>Paused...</span>
+    <span></span>
+    <br>
+    <div class="songs">
+        <span id="time-stamp">00:00</span>
+        <input type="range" min="1" max="100" value="0" id="progress">
+        <span id="duration">00:00</span>
+    <div class="but">
+        <a id="previous"><img src="images/previous.png" alt=""></a>
+        <a id="play"><img src="images/Play.png" alt=""></a>
+        <a id="next"><img src="images/next.png" alt=""></a>
+    </div>
+    <div class="volume">
+        <span id="low-vol"><img src="images/Low-vol.png" alt=""></span>
+        <input type="range" min="0" max="100" value="99" id="vol-progress">
+        <span id="high-vol"><img src="images/Max-vol.png" alt=""></span>
+    </div>
+  
+
+</div>
+<div class="playlist">
+    <ul></ul>
+</div>
+</div>
+</div>
+<footer>
+    <div>
+        <section>Created by- Sonal Jakhmola</section>
+    </div></footer>
+<script src="js/script.js"></script>
+<!--<script src="plyr-master/src/js/plyr.polyfilled.js"></script>
+<script src="plyr-master/src/js/plyr.js"></script>
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+-->
 </body>
 </html>

@@ -1,16 +1,50 @@
+@import url(https://fonts.googleapis.com/css2?family=Exo:wght@200&display=swap);
+@import url(src\sass\plyr.scss);
+
 *{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    color: white;
+    box-sizing: border-box;
 }
 body{
-    background-image: url(../images/5178023.jpg);
+    background-image: url(../images/wallpaper.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    
+}
+ 
+/*General Properties*/
+
+.cont{
+    margin: 10;
+   text-align: center;
+   font-family:monospace;
+
+}
+.but img{
+    width: 50px;
+    padding: 0pt 5pt;
+}
+.but img:hover{
+    background-color: rgb(234, 226, 241);
+
 }
 
 audio{
-    margin: 20px;
+    margin: 40px auto;
+ 
     
+}
+footer{
+    font-family: Teko;
+    text-align: center;
+    margin: 5px;
+}
+
+.volume img{
+    width: 60px;
+
 }
