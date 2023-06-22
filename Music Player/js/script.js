@@ -28,7 +28,7 @@ $(function(){
    var progress=$("#progress");
    var volume=$("#vol-progress");
 
-   var index=0;
+   var index=0, updateTimer=0;
    var playing=false;
 
    var aud=document.createElement('audio');
@@ -79,7 +79,14 @@ $(function(){
    }
    
 ]
-   
-   
-
 });
+
+function loadTrack(index){
+    clearInterval(updateTimer);
+    resetValues();
+    aud.src=tracks[index].path;
+    aud.load();
+
+    updateTimer=setInterval(seekUpdate,1000);
+
+}
