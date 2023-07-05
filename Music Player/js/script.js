@@ -90,3 +90,10 @@ function loadTrack(index){
     updateTimer=setInterval(seekUpdate,1000);
 
 }
+
+function resetValues(){
+    stamp.textContent="00:00"
+    duration.textContent="00:00"
+    progress.value=0
+}
+
