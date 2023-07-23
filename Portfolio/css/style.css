@@ -70,3 +70,17 @@ footer a{
     color: white;
     border-radius: 8px;
 }
+.skills h1{
+    text-align: center;
+    margin: 50px;
+    font-weight: bolder;
+}
+.skills img{
+    height: 10%;
+}
+.set col{
+    height: 40px !important;
+    width:50px;
+    margin: 10px;
+    border: 1px black solid;
+}
