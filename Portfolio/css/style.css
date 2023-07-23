@@ -74,13 +74,20 @@ footer a{
     text-align: center;
     margin: 50px;
     font-weight: bolder;
+    color: #137972;
 }
 .skills img{
-    height: 10%;
+    height: 30%;
+    margin:0px 42%;
+    
 }
-.set col{
-    height: 40px !important;
-    width:50px;
-    margin: 10px;
-    border: 1px black solid;
+.skills .row{
+    position: relative;
+
 }
+.skills .row div{
+   
+    height: 15vw;
+
+}
+
