@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@200&display=swap");
+
+
+.navbar{
+    background-color: #F7ECDE;
+    color: white;
+}
+#nav{
+   padding: 0px;
+   margin: 0px;
+   justify-content:end;
+
+}
+#nav li{
+    margin: 0px;
+    padding: 0% 3%;
+    font-family: Roboto Mono;
+}
+#hero{
+
+    background: url("../images/Front.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+#foot{
+    color: #137972;
+    background:url("../images/Frame.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+footer img{
+    width: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: #137972;
+    margin: 0px 3%;
+}
+#hero{
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+.box{
+    padding: 3% 20%;
+    margin: 10% 10% 20% 5% !important;
+    box-shadow: 3px 5px 5px #888888;
+    border-radius: 40px;
+    font-family: kanit;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    width: 40% !important;
+    height:50%;
+}
+.box button{
+    background-color: #41644A;
+    width: 20%;
+    height: 20%;
+    font-size: 1vw;
+    margin:auto;
+    color: white;
+    border-radius: 8px;
+}
