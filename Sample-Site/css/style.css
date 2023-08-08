@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #D4E2D4;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 15vw 1vw 9vw;
+    max-width: 100vw;
+    position:sticky;
+    backdrop-filter: blur(6px);
+    top: 0px;
+    background-color: rgba(236, 231, 229, 0.555);
+
+}
+
+#links{
+    margin: 0 20%;
+}
+.nav-item a img{
+    width: 2vw;
+}
+.nav-item a{
+    margin: 0px 5%;
+}
+.nav-item,.nav-item div{
+    display: flex;
+}
+.nav-item button{
+    padding: 0px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+}
+.hero{
+    margin: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: glow 2s ease-in-out infinite;
+}
+#p1{
+    font-size: 4.5vw;
+    font-family: monospace;
+    font-weight: bolder;
+
+}
+
+.sec1,.sec2{
+
+    margin: 15%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: monospace;
+}
+.sec1{
+    display: flex;
+}
+.sec2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sec1 img,.sec2 img{
+    width:200px;
+}
+.top{
+    font-size: 50px;
+    font-weight: bold
+}
+.down{
+    font-size: 20px;
+}
+
+.team{
+    margin: 6%;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    row-gap: 6%;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 300px;
+    place-items: center;
+}
+.grid .g{
+    width: 250px;
+    height: 300px;
+    padding: 60px 0px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 30px;
+    background-image: url("../images/human.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.name{
+    margin: 20px;
+    font-size: 50px;
+
+}
+.position{
+    font-size: 30px;
+    margin: 10px;
+}
+.im{
+    width:15%;
+    
+}
+.li{
+    margin: 10px;
+}
+.grid a,.small a {
+    margin: 60px 10px;
+    
+}
+.cont{
+    background-color: rgba(253, 252, 253, 0.678);
+    padding: 5px;
+}
+.small{
+    
+    margin:200px 8%;
+    text-align: center;
+    display: grid;
+    row-gap: 8%;
+    grid-template-columns: repeat(3,0.5fr);
+    grid-auto-rows: 250px;
+    place-items: center;
+}
+.small .s{
+    width: 200px;
+    height: 250px;
+    padding: 50px 0px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 30px;
+    background-image: url("../images/human.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    font-family: monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+}
+footer img{
+    width: 5%;
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 20px #2d9da9;
+    }
+    to {
+      text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+    }
+  }
